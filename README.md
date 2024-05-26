@@ -84,6 +84,7 @@ export const Demo = () => (
 | value    | string \| number | The value of the item      | iOS, Android |         |
 | testID   | string           | The testID of the item     | iOS          |         |
 | color    | string           | The color of the item text | iOS          |         |
+| style    | TextStyle        | The style of the text      | iOS, Android |         |
 
 ## Contributing
 
