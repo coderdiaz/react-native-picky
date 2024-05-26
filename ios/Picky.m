@@ -19,7 +19,7 @@
 - (instancetype)initWithFrame:(CGRect)frame
 {
   if ((self = [super initWithFrame:frame])) {
-    _color = [UIColor blackColor];
+    _color = [UIColor whiteColor];
     _font = [UIFont systemFontOfSize:16];
     _textAlign = NSTextAlignmentCenter;
     _numberOfLines = 1;
