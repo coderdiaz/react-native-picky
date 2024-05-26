@@ -178,8 +178,8 @@ const useNativePickerColumns = ({
           columnItems.push({
             label: itemChild.props.label,
             value: itemChild.props.value,
-            textColor: processColor(itemChild.props.color ?? textColor),
             testID: itemChild.props.testID,
+            style: itemChild.props.style,
           });
         }
       );
