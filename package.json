@@ -1,6 +1,6 @@
 {
   "name": "@epicbrain/react-native-wheel-picker",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An awesome native wheel picker component for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
