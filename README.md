@@ -1,4 +1,4 @@
-# ⛏️ react-native-wheel-picker2
+# ⛏️ @epicbrain/react-native-wheel-picker
 
 It's a fork of [react-native-picky](https://github.com/Liamandrew/react-native-picky) with Android API 33 support.
 
