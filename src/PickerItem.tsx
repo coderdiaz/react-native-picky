@@ -1,13 +1,23 @@
 import React from 'react';
-import { StyleProp, Text, TextStyle } from 'react-native';
+import { ColorValue, Text, TextStyle } from 'react-native';
 
 export interface PickerItemProps {
   label: string;
   value: string | number;
   testID?: string;
-  style?: StyleProp<TextStyle>;
+  style?: TextStyle;
+  color?: ColorValue;
 }
 
-export const PickerItem = ({ label, ...props }: PickerItemProps) => {
-  return <Text {...props}>{label}</Text>;
+export const PickerItem = ({
+  label,
+  color,
+  style,
+  ...props
+}: PickerItemProps) => {
+  return (
+    <Text style={{ color, ...style }} {...props}>
+      {label}
+    </Text>
+  );
 };

@@ -1,6 +1,6 @@
 import type {
+  ColorValue,
   NativeSyntheticEvent,
-  StyleProp,
   TextStyle,
   processColor,
 } from 'react-native';
@@ -11,7 +11,8 @@ export type NativeItem = {
   label: string;
   value: string | number;
   testID?: string;
-  style?: StyleProp<TextStyle>;
+  style?: TextStyle;
+  color?: ColorValue;
 };
 
 export type NativePickerDataItem = NativeItem[];

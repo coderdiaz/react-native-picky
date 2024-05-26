@@ -180,6 +180,7 @@ const useNativePickerColumns = ({
             value: itemChild.props.value,
             testID: itemChild.props.testID,
             style: itemChild.props.style,
+            color: itemChild.props.color,
           });
         }
       );
