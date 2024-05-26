@@ -8,6 +8,6 @@ export interface PickerItemProps {
   style?: StyleProp<TextStyle>;
 }
 
-export const PickerItem = ({ label, style, ...props }: PickerItemProps) => {
+export const PickerItem = ({ label, ...props }: PickerItemProps) => {
   return <Text {...props}>{label}</Text>;
 };
